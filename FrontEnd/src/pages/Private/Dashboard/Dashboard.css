@@ -1,0 +1,101 @@
+.dashboard {
+  min-height: calc(100vh - 70px);
+  background-color: rgba(218, 215, 205, 1);
+  padding-top: 8vh;
+  padding-bottom: 15vh;
+  user-select: none;
+}
+
+.dashboard-container {
+  width: 80%;
+  margin: auto;
+}
+
+.dashboard-heading h1 {
+  font-size: calc(1rem + 2vw);
+  width: fit-content;
+  margin-left: 20px;
+}
+
+.dashboard-heading img {
+  height: 100px;
+}
+
+.dash-main-cnt {
+  display: flex;
+  align-items: center;
+}
+
+.dash-main-left {
+  width: 60%;
+}
+
+.dash-main-right {
+  width: 40%;
+  height: 100%;
+}
+
+.dash-sm-carousel .carousel-card {
+  height: 250px;
+}
+
+.dash-lg-carousel .carousel-card {
+  height: 300px;
+  margin: 5% 10%;
+}
+
+.carousel-heading {
+  font-size: calc(0.7rem + 1vw);
+  font-weight: 500;
+  margin-top: 5vh;
+}
+
+.dash-nav-section {
+  margin: 100px auto;
+}
+
+.dash-nav-section > div {
+  background-color: white;
+  width: 25%;
+  aspect-ratio: 3/4;
+  margin: 0 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg");
+  background: -webkit-linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg");
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 10% 5%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.dash-nav-section > div:hover {
+  transform: scale(1.03);
+}
+
+.dash-nav-section > div:active {
+  transform: scale(1);
+}
+
+.explore-btn {
+  font-size: 20px;
+  margin-right: 30px;
+  background-color: rgba(0, 0, 0, 0.489);
+  color: white;
+  padding: 8px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
